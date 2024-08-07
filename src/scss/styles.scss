@@ -1,0 +1,26 @@
+.header-navbar .navbar-brand {
+    display: flex;
+    align-items: center;
+}
+.banner {
+    height: 50vw;
+    display: flex;
+    align-items: center;
+    background: #edc0bf;
+    background: linear-gradient(90deg, #edc0bf 0,#c4caef 58%);
+    border-radius: 1rem;
+
+}
+.card_horizontal {
+    display: flex; 
+    align-items: center; 
+    padding: 1em;
+    gap: 1em;
+    background: rgba(255, 255, 255, .3);
+    border-radius: 1rem;
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+}
+.card_horizontal img {
+    border-radius: 50%;
+}
